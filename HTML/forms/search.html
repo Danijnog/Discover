@@ -1,0 +1,29 @@
+<!--
+    <input type="search" />
+    Para campos de busca
+
+    Atributos
+        - list / <datalist>
+        - pattern
+        - aria-label
+        o aria-label nao aparece na tela mas é bom pra acessibilidade
+-->
+
+
+<datalist id="datasearch">
+    <option>iPhone 13</option>
+    <option>iPhone SE</option>
+</datalist>
+<input type="search"
+    name="q"
+    list="datasearch"
+    placeholder="Seu texto aqui"
+    aria-label="Campo de pesquisa" 
+>
+<form action="">
+
+    <button>
+        Pesquisar
+    </button>
+
+</form>

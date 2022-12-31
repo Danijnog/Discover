@@ -1,0 +1,41 @@
+<!-- 
+    <label>
+        - associar e identificar uma ou mais tag
+        de entrada de dados
+        - é clicavel para mudar o foco da entrada de dados
+
+    Atributos
+        - for
+            - para fazer a conexao entre este label
+            e a tag de entrada de dados
+            - é feita via id do input
+            - so funciona com elementos especificos
+                - button, input, meter, output, 
+                progress, select, textarea
+-->
+
+<!--
+    Tipos de input suportados
+        - text, search, url, tel, email, date, month, week, time,
+        datetime-local, number, range e color
+-->
+
+<form action="">
+    <label for="">CPF</label>
+
+    <input type="text" value="">
+    <button type="button"> Limpar </button>
+</form>
+<br>
+
+<input type="text" list="fruitsdata"  placeholder="Escolha uma fruta">
+
+<datalist id="fruitsdata">
+    <option>apple</option>
+    <option>banana</option>
+    <option>mango</option>
+    <option>orange</option>
+    <option>kiwi</option>
+    <option>apple</option>
+
+</datalist>

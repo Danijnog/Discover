@@ -1,0 +1,48 @@
+<!--
+    <input type="email" />
+
+    Atributos
+        - placeholder
+        - readonly / disabled
+        - required
+        - multiple
+            o campo ira receber 1 ou mais emails, separado por virgulas
+        
+        - minlength / maxlength
+            o minimo ou max valor que o campo ira conter
+        
+        - size
+            tamanho do campo
+        
+        - pattern
+            uso de expressao regular p/ validar o campo
+            exemplo: o usuario só podera colocar email do dominio
+            rocketseat.com.br
+                pattern=".+ijunior\.com\.br"
+            
+        - list
+            - o id de uma tag <datalist> que esta no mesmo documento
+            - <datalist> ira conter uma lista de valores pre-definidos a fim de sugerir ao usuario
+                ps: os valores do <datalist> que nao forem compativeis com o campo nao serao apresentados como solucao
+-->
+
+<form action="">
+
+    <datalist id="emailslist">
+        <option>
+            daniel.junqueira@ijunior.com.br
+        </option>
+    </datalist>
+
+    <input type="email"
+    placeholder="Digite seu email"
+    required
+    size="20"
+    pattern=".+ijunior\.com\.br"
+    title="Somente emails com dominio 'ijunior.com.br' sao aceitos"
+    list="emailslist"
+    
+    >
+
+    <button type="submit"> Enviar </button>
+</form>
