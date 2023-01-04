@@ -13,6 +13,7 @@
     - undefined
     - Symbol
     - BigInt
+    - Null
 
 ## Estruturais
     * Object
