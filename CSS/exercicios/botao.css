@@ -1,0 +1,28 @@
+img {
+    height: 1rem;
+    width: auto;
+}
+
+div {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    padding-left: 32px;
+    padding-top: 8px;
+    padding-right: 32px;
+    padding-bottom: 8px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(10, 125, 70, 07);
+    color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: .4rem;
+}

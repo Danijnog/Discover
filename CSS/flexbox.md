@@ -12,7 +12,7 @@ div.parent {
 ## Flex-direction
     direcao do flex: horizontal ou vertical
 
-    flex-direction: column;  |  flex-direction: row;
+    flex-direction: column | column-reverse;  |  flex-direction: row | row-reverse;
 
 ## Alinhamento
     atributos:

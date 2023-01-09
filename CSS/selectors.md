@@ -8,6 +8,9 @@ conecta um elemento HTML com o CSS
     - class selector ".texto, .elementocontainer"
     - attribute selector, pseudo-class, pseudo-element, entre outros
 
+exemplo 'attribute selector': [title] {color: orange;}
+exemplo 'pseudo-class selector': p:hover {color: red;}
+
 ### Adicionando CSS
  
     - inline: atributo "style"

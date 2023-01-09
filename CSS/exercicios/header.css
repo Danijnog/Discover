@@ -1,0 +1,50 @@
+html {
+    font-size: 16px;
+}
+
+
+header {
+    display: flex;
+   // border: 1px solid;
+    font-size: 1rem;
+    font-family: Roboto,  sans-serif;
+
+}
+
+.logo {
+    display: flex;
+    padding: 1rem;
+}
+
+section {
+    display: flex;
+    padding-left: 50vw;
+
+}
+
+p {
+    padding-left: 8rem;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin-left: 2rem;
+    background-color: lightblue;
+    border: none;
+    border-radius: 5px;
+    width: 10rem;
+    height: 2rem;
+    margin-top: 0.5rem;
+
+
+}
+
+
+VALORES:
+- flex-start;
+- flex-end;
+- center;
+- space-around;
+- space-between;
+- space-evenly;
