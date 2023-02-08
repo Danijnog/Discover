@@ -1,0 +1,1 @@
+console.log('Testando o script criado em package.json');

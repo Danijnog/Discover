@@ -53,4 +53,4 @@
 
 ## Editar arquivos
     'nano' -> para sair da edição, usa-se o comando ctrl x
-    'vim' -> para sair da edição, usa-se o comando :q
+'vim' -> para sair da edição, usa-se o comando :q
