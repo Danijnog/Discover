@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- sintaxe para incluir o arquivo ejs -->
+    <%- include('../partials/head'); %>
+
+<body class="container">
+    <%- include('../partials/header'); %>
+    <main>
+        <div class="jumbotron">
+            <h1>
+                Node com EJS
+            </h1>
+            <p>
+                Aprendendo a trabalhar com arquivos EJS
+            </p>
+            <p>
+                <%= subtitle %>
+            </p>
+        </div>
+        <ul>
+            <!-- <% for(var i=0; i<items.lenght; i++) { %>
+                <li>
+                    <strong> <%= items[i].title %> </strong> <%= items[i].message %>
+                </li>
+            <% }; %> -->
+
+            <!-- Aqui estamos percorrendo o objeto 'items' declarado no server.js e puxando ele pro nosso front-end pra ser colocado na tela -->
+            <% items.forEach(function(item) { %>
+                <li>
+                    <strong><%= item.title %></strong> <%= item.message %>
+                </li>
+            <% }); %>
+        
+        </ul>
+    </main>
+
+    <%- include('../partials/footer'); %>
+    
+</body>
+</html>
